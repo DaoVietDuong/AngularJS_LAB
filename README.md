@@ -1,2 +1,2 @@
 # AngularJS_LAB
-Prototy for angularjs build by webpack
+Prototype for angularjs build by webpack
