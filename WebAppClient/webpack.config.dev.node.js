@@ -9,6 +9,7 @@ webpackBase.output = {
     filename: '[name].js'
 };
 webpackBase.devServer = {
+    stats: { colors: true },
     contentBase: path.resolve(__dirname, pathSrc)
 };
 
