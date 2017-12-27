@@ -1,5 +1,7 @@
+/* eslint-disable */
 import './styles/styleCustom';
 var mainApp = angular.module('mainApp', ["ui.router"]);
+/* eslint-enable */
 
 mainApp.config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
     $stateProvider
