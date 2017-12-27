@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "sharelocal": "lt --port 3001",
     "lint": "esw webpack.config.* src buildScripts app --color",
     "lint:watch": "npm run lint -- --watch",
     "clean-dist": "rimraf ./dist && mkdir dist",
@@ -17,9 +18,9 @@
   "author": "DuongDV6",
   "license": "ISC",
   "dependencies": {
+    "@uirouter/angularjs": "^1.0.12",
     "angular": "^1.6.6",
-    "angular-route": "^1.6.8",
-    "html-loader": "^0.5.1"
+    "angular-route": "^1.6.8"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -29,6 +30,8 @@
     "babel-preset-latest": "^6.24.1",
     "babel-register": "^6.26.0",
     "chalk": "^2.3.0",
+    "html-loader": "^0.5.1",
+    "localtunnel": "^1.8.3",
     "compression": "^1.7.1",
     "css-loader": "^0.28.7",
     "eslint": "^4.14.0",

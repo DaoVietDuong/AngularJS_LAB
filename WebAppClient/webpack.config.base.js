@@ -7,7 +7,7 @@ export default {
     devtool: 'inline-source-map',
     entry: {
         main: [path.resolve(__dirname, './app/app.js')], // input files
-        vendor: ['angular', 'angular-ui-router'] // library files.
+        vendor: ['angular', '@uirouter/angularjs'] // library files.
     },
     target: 'web',
     resolve: {
